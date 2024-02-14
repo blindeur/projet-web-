@@ -1,0 +1,31 @@
+@media only screen and (min-width: 1200px) {
+    div a:hover {
+      transition: all 1s;
+      border: 0;
+      color: rgba(255, 255, 255, 0.315);
+    }
+    body {
+        background-color: rgb(148, 145, 145);
+      }
+
+    ul li {
+      list-style-type: none;
+      border: 5px dashed rgb(241, 141, 8);
+      margin: 10px;
+      padding: 10px;
+    }
+    
+    .imageMenu{
+      display: none;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    ul li.menu { 
+       display: none;
+       
+    }
+
+    .imageMenu{
+      list-style-type: none
+    }
+}

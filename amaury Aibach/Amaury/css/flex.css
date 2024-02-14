@@ -1,0 +1,23 @@
+.flexible{
+    display: flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.flex-wrap-wrap{
+    flex-wrap: wrap;
+}
+.flex{
+   display: flex; 
+}
+.justify-content-space-evenly{
+    justify-content: space-evenly;
+}
+
+.flex-wrap-wrap{
+    flex-wrap: wrap;
+}
+
+.justify-content-space-around{
+    justify-content: space-around;
+}
